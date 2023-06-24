@@ -1,0 +1,8 @@
+The problem is that two moving balls are given, find the collide point between those two balls.
+We only find the collide time and then, we can move two balls into their collide points.
+If, then, we can easily find the collide points between two balls.
+To do this, first, we should know about the relative speed in this problem.
+By using relative speed, we can stop one ball.
+And then, to find the collide point, we can change this problem from "find collide time between two balls" into "finding collide time between point and one big ball".
+(Here the radius of the big ball is the sum of radius of two given balls.)
+This new problem is simpler than the first given problem, and we can solve this problem using the distance between point and line in 3D plane.
